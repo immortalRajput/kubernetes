@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:latest
+          image: krytox/webapp:v2
           ports:
             - containerPort: 80
 
